@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(118, 223, 200, 0.849);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar-brand img {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .navbar-nav li a:hover {
+    color: red !important;
+  }
+  
+  .navbar-nav li a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar-nav li:last-child a {
+    margin-right: 0;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 70vh;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  }
+  
+  .banner h1 {
+    text-align: center;
+    color: #000;
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .card-img p {
+    border-radius: 5px;
+    display: none;
+    color: #777
+  }
+  
+  .card-img a:hover p {
+    display: block !important;
+    width: 100%;
+    text-align: center
+  }
+  
+  
+  .section {
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    background-color: #9ABAE7;
+  }
+  
+  .section #btn {
+    border-radius: 4rem;
+    border-color: #fff;
+    padding: 0.5rem;
+    color: #fff;
+    background-color: #9ABAE7;
+    font-weight: bold;
+  }
+  
+  .footer .container .row img {
+    width: 30%;
+    margin: auto;
+    position: relative;
+    margin-left: 0rem;
+  
+  }
+  
+  
+  
+  .fa-facebook {
+    color: #1877f2;
+    /* Facebook brand color */
+  }
+  
+  .fa-instagram {
+    color: #e4405f;
+    /* Instagram brand color */
+  }
+  
+  .fa-pinterest {
+    color: #bd081c;
+    /* Pinterest brand color */
+  }
+  
+  .fa-twitter {
+    color: #1da1f2;
+    /* Twitter brand color */
+  }
+  
+  .fa-youtube {
+    color: #ff0000;
+    /* YouTube brand color */
+  }
+  
+  .icons i:not(:last-child) {
+    margin-right: 10px;
+  }
